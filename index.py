@@ -100,12 +100,8 @@ def shuffle(lst:list) -> list:
     lst = lst.copy()
     
     newLst = []
-    counter = 0
     while (len(lst) != 0):
         newLst.append(lst.pop(hexToInt(hash[counter:counter+len(lst)], 0, len(lst))))
-        counter += len(lst)
-
-    print (requiredLen)
     return newLst
 
 def sample(lst, numSamples) -> list:
