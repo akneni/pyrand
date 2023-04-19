@@ -19,3 +19,4 @@ This module requires the following dependencies:
 - hashlib
 - time
 - random
+- pyautogui
